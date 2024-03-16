@@ -1,0 +1,22 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"[markdown]": {
+		"editor.wordWrap": "on"
+	},
+	"prettier.documentSelectors": ["**/*.astro"],
+	"eslint.probe": [
+		"astro",
+		"javascript",
+		"javascriptreact",
+		"markdown",
+		"typescript",
+		"typescriptreact"
+	],
+	"[astro]": {
+		"editor.defaultFormatter": "astro-build.astro-vscode"
+	}
+}
