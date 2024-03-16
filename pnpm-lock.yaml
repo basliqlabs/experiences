@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^2.6.0
     version: 2.6.0(astro-eslint-parser@0.16.3)(eslint@8.57.0)(typescript@5.4.2)
   eslint-plugin-regexp:
-    specifier: ^2.2.0
-    version: 2.2.0(eslint@8.57.0)
+    specifier: ^2.3.0
+    version: 2.3.0(eslint@8.57.0)
   eslint-plugin-typescript-sort-keys:
     specifier: ^3.2.0
     version: 3.2.0(@typescript-eslint/parser@7.1.1)(eslint@8.57.0)(typescript@5.4.2)
@@ -3448,8 +3448,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-regexp@2.2.0(eslint@8.57.0):
-    resolution: {integrity: sha512-0kwpiWiLRVBkVr3oIRQLl196sXP/NF6DQFefv9jtR4ZOgQR+6WID2pIZ0I+wIt54qgBPwBB7Gm2a+ueh8/WsFQ==}
+  /eslint-plugin-regexp@2.3.0(eslint@8.57.0):
+    resolution: {integrity: sha512-T8JUs7ssRGbuXb+CGfdUJbcxTBMCNOpNqNBLuC8JUKAEIez72J37RaOi5/4dAUsGz92GbWVtqTLPSJZGyP/sQA==}
     engines: {node: ^18 || >=20}
     peerDependencies:
       eslint: '>=8.44.0'
