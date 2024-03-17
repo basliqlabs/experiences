@@ -13,13 +13,14 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 	<section>
 		<h1 class="title mb-6">Let's Basliq 🤙</h1>
 		<p class="mb-4">
-			Basliq Labs is a group of students from IAUT (Azad: Tabriz branch). We write about software
-			engineering, university courses, and everyday things that might be useful.
+			Basliq Labs is a group of students from Azad University of Tabriz who are trying to apply the
+			things they have learned in the real world scenarios. We write about software engineering,
+			university courses, and everyday things that might be useful.
 		</p>
 		<SocialList />
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts</h2>
+		<h2 class="title mb-2 text-xl">Posts</h2>
 		<ul class="space-y-4">
 			{
 				allPostsByDate.map((p) => (

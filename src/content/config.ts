@@ -1,4 +1,5 @@
 import { z, defineCollection } from "astro:content";
+import { authors } from "src/authors";
 
 function removeDupsAndLowerCase(array: string[]) {
 	if (!array.length) return array;
@@ -30,6 +31,7 @@ const post = defineCollection({
 			draft: z.boolean().default(false),
 			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 			ogImage: z.string().optional(),
+			author: z.enum(authors as any as [string, ...string[]]).optional(),
 		}),
 });
 

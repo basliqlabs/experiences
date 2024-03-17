@@ -13,6 +13,8 @@
 		--theme-accent: 258 90% 66%;
 		--theme-accent-2: 0deg 0% 7%;
 		--theme-quote: 258 90% 66%;
+		--selection-bg: #efeafa;
+		--selection-text: #895af6;
 	}
 
 	:root[data-theme="dark"] {
@@ -23,6 +25,8 @@
 		--theme-accent: 258 88% 75%;
 		--theme-accent-2: 0deg 0% 93%;
 		--theme-quote: 258 73% 76%;
+		--selection-bg: #2c2b35;
+		--selection-text: #a987f7;
 	}
 
 	html {
@@ -30,6 +34,11 @@
 	}
 
 	body {
-		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-normal text-textColor antialiased;
 	}
+}
+
+::selection {
+	background-color: var(--selection-bg);
+	color: var(--selection-text);
 }

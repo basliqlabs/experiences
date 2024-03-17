@@ -7,9 +7,10 @@ coverImage:
   src: "./cover.png"
   alt: "browser vendors cover"
 tags: ["front-end", "the-unnoticed-bits"]
+author: "atareversei"
 ---
 
-# Browser Market Share
+## Intro
 
 What would be your answer if you were asked to order the browsers by popularity amongst your web application's users? We all know that Chrome is the most popular, but what about the rest of the list?
 
