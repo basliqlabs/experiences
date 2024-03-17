@@ -7,7 +7,7 @@ updatedDate: "17 Mar 2024"
 coverImage:
   src: "./cover.png"
   alt: "browser vendors cover"
-tags: ["atareversei", front-end", "the-unnoticed-bits"]
+tags: ["atareversei", "front-end", "the-unnoticed-bits"]
 author: "atareversei"
 ---
 
