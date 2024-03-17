@@ -1,12 +1,13 @@
 ---
 title: "The Unnoticed Bits of Web Development: Chrome's Dominance"
 description: "Chrome's dominance often misleads us. We think 85% of users use Chrome. But is that always the case?"
+slug: "the-unnoticed-bits-of-web-development-chromes-dominance"
 publishDate: "11 Dec 2023"
 updatedDate: "17 Mar 2024"
 coverImage:
   src: "./cover.png"
   alt: "browser vendors cover"
-tags: ["front-end", "the-unnoticed-bits"]
+tags: ["atareversei", front-end", "the-unnoticed-bits"]
 author: "atareversei"
 ---
 
